@@ -62,6 +62,23 @@ public class TestLoginPage {
 		
 		WebElement loginButton = driver.findElement(By.className("orangehrm-login-button"));
 		loginButton.click();
-		assertTrue(true);
+	}
+	
+	@Test
+	public void testLoginFail() {
+		WebElement usernameField = driver.findElement(By.name("username"));
+		WebElement passwordField = driver.findElement(By.name("password"));
+		
+		usernameField.click();
+		usernameField.sendKeys("Admin");
+		
+		passwordField.click();
+		passwordField.sendKeys("admin1234");
+		
+		WebElement loginButton = driver.findElement(By.className("orangehrm-login-button"));
+		loginButton.click();
+		
+		String alertCredentials = driver.findElement(By.className("oxd-alert-content-text")).getText();
+		assertEquals("Invalid credentials", alertCredentials);
 	}
 }
