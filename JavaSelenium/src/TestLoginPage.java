@@ -62,6 +62,9 @@ public class TestLoginPage {
 		
 		WebElement loginButton = driver.findElement(By.className("orangehrm-login-button"));
 		loginButton.click();
+		
+		String homepageTitle = driver.findElement(By.className("oxd-topbar-header-breadcrumb-module")).getText();
+		assertEquals("PIM", homepageTitle);
 	}
 	
 	@Test
