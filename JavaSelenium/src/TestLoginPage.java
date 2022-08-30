@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import java.nio.file.FileSystems;
 import java.time.Duration;
 
 import org.junit.After;
@@ -8,22 +9,23 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.FindBy;
 
 public class TestLoginPage {
 	
 	WebDriver driver;
+	static String absPath = FileSystems.getDefault().getPath(new String()).toAbsolutePath().toString();
+	static String driverPath = absPath + "\\chromedriver.exe";
+	static String baseUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		System.out.println("Starting login page test cycle!");
+		System.out.println("Driver Path: "+ driverPath);
 	}
 
 	@AfterClass
@@ -33,12 +35,12 @@ public class TestLoginPage {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jfl2\\Desktop\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", driverPath);
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
 		driver = new ChromeDriver(options);
 		
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.get(baseUrl);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 
