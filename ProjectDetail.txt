@@ -1,0 +1,1 @@
+This is a sample of test automation using Java and Selenium webDriver
