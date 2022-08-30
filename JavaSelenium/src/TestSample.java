@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestSample {
 	
-	private WebDriver driver;
+	WebDriver driver;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -22,16 +22,19 @@ public class TestSample {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jfl2\\eclipse-workspace\\AutomationJavaSeleniumSample\\JavaSelenium\\Selenium-jars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jfl2\\Desktop\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 
 	@After
 	public void tearDown() throws Exception {
+		driver.close();
+		driver.quit();
 	}
 
 	@Test
 	public void test() {
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		assertTrue(true);
 	}
 }
