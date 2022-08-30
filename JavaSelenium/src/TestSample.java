@@ -28,5 +28,4 @@ public class TestSample {
 	public void test() {
 		assertTrue(true);
 	}
-
 }
