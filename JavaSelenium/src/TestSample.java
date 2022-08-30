@@ -5,8 +5,12 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestSample {
+	
+	private WebDriver driver;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -18,6 +22,8 @@ public class TestSample {
 
 	@Before
 	public void setUp() throws Exception {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jfl2\\eclipse-workspace\\AutomationJavaSeleniumSample\\JavaSelenium\\Selenium-jars\\chromedriver.exe");
+		driver = new ChromeDriver();
 	}
 
 	@After

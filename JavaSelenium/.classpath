@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-api-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-api-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-chrome-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-chrome-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-chromium-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-chromium-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v85-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v85-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v102-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v102-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v103-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v103-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v104-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-devtools-v104-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-edge-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-edge-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-firefox-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-firefox-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-http-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-http-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-ie-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-ie-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-java-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-java-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-json-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-json-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-opera-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-opera-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-remote-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-remote-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-safari-driver-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-safari-driver-4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-support-4.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jfl2/eclipse-workspace/AutomationJavaSeleniumSample/JavaSelenium/Selenium-jars/selenium-support-4.4.0-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
